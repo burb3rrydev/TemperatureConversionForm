@@ -42,7 +42,7 @@
             lbCelcius.Size = new Size(124, 15);
             lbCelcius.TabIndex = 0;
             lbCelcius.Text = "Temprature In Celcius:";
-            lbCelcius.Click += label1_Click;
+
             // 
             // tbCelcius
             // 
@@ -51,7 +51,6 @@
             tbCelcius.Name = "tbCelcius";
             tbCelcius.Size = new Size(289, 23);
             tbCelcius.TabIndex = 1;
-            tbCelcius.TextChanged += tbCelcius_TextChanged;
             // 
             // lbFarenheit
             // 
